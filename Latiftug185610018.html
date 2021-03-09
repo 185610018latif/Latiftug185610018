@@ -1,127 +1,56 @@
- <!DOCTYPE html>
 <html>
-  <head>
-    <style>
-    
-    body{
-      background-color: black;
-      color: gray;
-    }
+    <head>
+        <title>Informasi Data Diri</title>
+        <link rel="stylesheet" type="text/css" media="all" href="style.css">
 
-    form{
-    width: auto;
-    height: 700px;
-    text-align: left;
-    float: center;
-    border: 5px solid grey;
-    background-color: maroon;
-    border-radius: 10px;
-    margin-top: 10px;
-    margin-left: auto;
-    font-family: Helvetica;
-    }
-
-    #judul{
-      width:1000px;
-      height:70px;
-      color:gray;
-      font-size: 50px;
-      text-align: center;
-      font-family: Cambria;
-    }
-        
-    #isi{
-            width:1077px;
-            height:auto;
-            font-family: sans-serif;
-        }
-
-    #menu ul li{
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      font-family: Cambria;
-    }
-
-    #menu ul li{
-      float: left;
-    }
-
-    #menu ul li a{
-      float: left;
-      color: #ada6a6;
-      padding: 12px 20px;
-      background: maroon;
-      border-radius: 15px 60px;
-      text-shadow: 0 -1px 1px rgba(0, 0, 0, 6);
-    }
-
-    #menu ul li a :hover{
-      color: white;
-      align-self: auto;
-    }
-    
-    #footer {
-      width: auto;
-      height: 40px;
-      border: 5px solid grey;
-      background-color: maroon;
-      border-radius: 15px;
-      float: none;
-      margin-top: auto;
-      text-align: center;
-    }
-
-    </style>
-    
-  </head>
-  <body>
-    
-    <div id="judul"><b>Form Inputan Data</b></div>
-    <div id="isi"></div>
-
-      <form method="POST">
-
-      <br>Nama :</br>
-        <input type="text" name="nama"></br>
-      <br>Alamat Email  :</br>
-        <input type="text" name="email"></br>
-      <br>Password     :</br>
-        <input type="password" name="pw" value="123"></br>
-      <br>Jurusan      :</br>
-      <select name="jurusan">
-        <option value=""> </option>
-        <option value="TI">Teknik Informatika</option>
-        <option value="SI">Sistem Informasi</option>
-        <option value="MI">Manajemen Informatika</option>
-        <option value="KA">Komputerisasi Akuntansi</option>
-        <option value="TK">Teknik Komputer</option>
-      </select>
-      <br>umur     :</br>
-        <input type="text" name="umur"></br>
-      <br>Agama    :</br>
-        <input type="radio" name="Agama" value="I">Islam</br>
-        <input type="radio" name="Agama" value="K">Katolik</br>
-        <input type="radio" name="Agama" value="P">Protestan</br>
-        <input type="radio" name="Agama" value="H">Hindu</br>
-        <input type="radio" name="Agama" value="B">Budha</br>
-        <input type="radio" name="Agama" value="C">Kong Hu Cu</br>
-      <br>Jenis Kelamin :</br>
-        <input type="radio" name="jk" value="p">Pria
-        <input type="radio" name="jk" value="w">Wanita</br>
-      <br>Status  :</br>
-        <input type="checkbox" value="y">Menikah
-        <input type="checkbox" name="status" value="t">Belum Menikah</br>
-      <br>Alamat Rumah :</br>
-      <textarea name="alamat" rows="6" cols="26" Masukkan Alamat></textarea>
-        <input type="submit" name="proses" value="SAVE">
-        <input type="reset" name="reset" value="RESET">
-
-      </form>
-    
-    </div>
-    <div id="footer">
-      Copyright &copy; Muhammad Latif Zulfikar | 185610018
-    </div>
-  </body>
+    </head>
+    <body>
+        <h1><b>Informasi Data Diri</b></h1>
+        <p>Praktikum ini menyimpan aktivitas praktikum yang dilakukan Buat aplikasi web statis menurut imajinasi 
+            masing-masing. Halaman ini berisi profil informasi data diri user.
+        <div id="menu"></p>
+            <ul>
+                <li><a href="index.html"><i>Beranda</i></a></li>
+                <li><a href="informasi.html"><i>Informasi</i></a></li>
+                <li><a href="masuk.html"><i>Masuk</i></a></li>
+            </ul>
+        </div>
+        <div id="deskripsi">
+            <table border="0">
+                <tr>
+                  <td border="10px">Nama</td>
+                  <td border="5px">:</td>
+                  <td>Muhammad Latif Zulfikar</td>
+                </tr>
+                <tr>
+                  <td border="10px">N I M</td>
+                  <td border="5px">:</td>
+                  <td>185610018</td>
+                </tr>
+                <tr>
+                  <td border="10px">Agama</td>
+                  <td border="5px">:</td>
+                  <td>Islam</td>
+                </tr>
+                <tr>
+                  <td border="10px">Jurusan</td>
+                  <td border="5px">:</td>
+                  <td>Sistem Informasi</td>
+                </tr>
+                <tr>
+                  <td border="10px">Alamat</td>
+                  <td border="5px">:</td>
+                  <td>Jl. Jati Kel. Perumnas RT03/RW02</td>
+                </tr>
+                <tr>
+                  <td border="10px">Email</td>
+                  <td border="5px">:</td>
+                  <td>latifzulfikar0@gmail.com</td>
+                </tr>
+              </table>
+        </div>
+        <div id="footer">
+            Copyright &copy; 2021, Muhammad Latif Zulfikar | 185610018
+        </div>
+    </body>
 </html>
